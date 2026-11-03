@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+
+</head>
+
+<body style="margin: 0; color: white; font-family: Arial;">
+
+    <video autoplay muted loop style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+
+        <source src="./assets/videos/16794873_1920_1080_24fps.mp4" type="video/mp4">
+
+    </video>
+
+    <form style="width: 100%; min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+
+        <fieldset style="background-color: rgba(0, 0, 0, 0.75); width: 400px; padding: 20px; border-radius: 10px; border: 2px solid white;">
+
+            <h1 align="center">Create Account</h1>
+
+            <p style="text-align: center;">Please enter your details to create an account.</p>
+
+            <label for="name">Full Name:</label>
+
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required style="width: 90%; height: auto; border-radius: 5px; padding: 10px; border: 1px solid #ccc;">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required style="width: 90%; height: auto; border-radius: 5px; padding: 10px; border: 1px solid #ccc;">
+
+            <br><br>
+
+            <label for="pass">Password:</label>
+
+            <input type="password" id="pass" name="pass" placeholder="Enter your Password" required style="width: 90%; height: auto; border-radius: 5px; padding: 10px; border: 1px solid #ccc;">
+
+            <br><br>
+
+            <label for="dob">Date of Birth:</label>
+
+            <input type="date" id="dob" name="dob" required style="width: 90%; height: auto; border-radius: 5px; padding: 10px; border: 1px solid #ccc;">
+
+            <br><br>
+
+            <label>Gender:</label>
+
+            <br>
+
+            <input type="radio" id="male" name="gender" value="male" required>
+
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="other">
+
+            <label for="other">Other</label>
+
+            <br><br>
+
+            <label for="profile">Profile Picture:</label>
+
+            <input type="file" id="profile" name="profile" accept="image/*" required style="width: 90%; height: auto; border-radius: 5px; padding: 10px; border: 1px solid #ccc;">
+
+            <br><br>
+
+            <input type="submit" value="Create Account" style="text-align: center; width: 50%; height: auto; border-radius: 5px; padding: 10px; border: 1px solid #ccc; background-color: #4CAF50; color: white; cursor: pointer; display: block; margin: auto;">
+
+            <br>
+
+            <a href="./signup2.html" style="text-align: center; width: 50%; border-radius: 5px; padding: 10px; border: 1px solid #ccc; color: white; cursor: pointer; display: block; margin: auto; text-decoration: none;">Next</a>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

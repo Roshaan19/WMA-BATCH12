@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preferences</title>
+
+</head>
+
+<body style="margin: 0; color: white; font-family: Arial;">
+
+    <video autoplay muted loop style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+
+        <source src="./assets/videos/16794873_1920_1080_24fps.mp4" type="video/mp4">
+
+    </video>
+
+    <form style="width: 100%; min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+
+        <fieldset style="background-color: rgba(0, 0, 0, 0.75); width: 400px; padding: 20px; border-radius: 10px; border: 2px solid white;">
+
+            <h1 style="text-align: center;">Preferences</h1>
+
+            <p style="text-align: center;">Please select your preferences.</p>
+
+            <label for="receive">Receive Notifications:</label>
+
+            <input type="checkbox" id="receive" name="receive">
+
+            <br><br>
+
+            <label for="job">Preferred Job Location:</label>
+
+            <br><br>
+
+            <select id="job" name="job" multiple required style="width: 100%; height: 120px; border-radius: 5px; padding: 10px; border: 1px solid #ccc;">
+
+                <option value="Hyderabad">Hyderabad</option>
+
+                <option value="Karachi">Karachi</option>
+
+                <option value="Sukkur">Sukkur</option>
+
+                <option value="Lahore">Lahore</option>
+
+                <option value="Multan">Multan</option>
+
+                <option value="Quetta">Quetta</option>
+
+                <option value="Islamabad">Islamabad</option>
+
+                <option value="Remote">Remote</option>
+
+                <option value="Hybrid">Hybrid</option>
+
+                <option value="On-site">On-site</option>
+
+            </select>
+
+            <p>Select multiple locations by holding Ctrl while clicking on Windows.</p>
+
+            <br>
+
+            <input type="submit" value="Sign Up" style="width: 50%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; background-color: #4CAF50; color: white; cursor: pointer; display: block; margin: auto;">
+
+            <br>
+
+            <a href="./signup3.html" style="text-align: center; width: 50%; padding: 10px; border: 1px solid white; border-radius: 5px; color: white; display: block; margin: auto; text-decoration: none;">Back</a>
+
+            <br>
+
+            <a href="./index.html" style="text-align: center; width: 50%; padding: 10px; border: 1px solid white; border-radius: 5px; color: white; display: block; margin: auto; text-decoration: none;">Home Page</a>
+
+            <br>
+
+            <a href="./index.html" style="text-align: center; display: block; color: #8ab4ff;">Forgot Password?</a>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>
