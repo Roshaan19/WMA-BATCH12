@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CSS BOX MODEL ASSIGNMENT</h1>
+
+<p>
+    <b>Name:</b> Ahmed Umer Roshaan<br>
+    <b>Class:</b> 9<br>
+    <b>Topic:</b> CSS Box Model
+</p>
+
+<h2>1. Introduction</h2>
+
+<p>
+    The CSS Box Model is an important concept in CSS. It explains how every HTML element is displayed as a rectangular box. It consists of four main components: Content, Padding, Border, and Margin.
+</p>
+
+<h2>2. Components of the CSS Box Model</h2>
+
+<p>
+    <b>1. Content</b><br>
+    Content is the actual area where text, images, or other elements appear.
+</p>
+
+<p>
+    <b>2. Padding</b><br>
+    Padding is the space between the content and the border. It creates space inside an element.
+</p>
+
+<p>
+    <b>3. Border</b><br>
+    Border is the line surrounding the content and padding.
+</p>
+
+<p>
+    <b>4. Margin</b><br>
+    Margin is the space outside the border. It creates distance between elements.
+</p>
+
+<h2>3. Width Examples</h2>
+
+<p>
+    In this section, I used different width, padding, and border values to observe how the total width of an element changes.
+</p>
+
+<h3>Example 1: Content-box</h3>
+
+<p>
+    Width: 200px<br>
+    Padding: 20px (left and right)<br>
+    Border: 5px (left and right)<br>
+    Box-sizing: content-box
+</p>
+
+<p>
+    <b>Calculation:</b><br>
+    200 + 20 + 20 + 5 + 5 = 250px<br>
+    <b>Total Width: 250px</b>
+</p>
+
+<h3>Example 2: Different Padding</h3>
+
+<p>
+    Width: 200px<br>
+    Left and Right Padding: 30px<br>
+    Border: 5px (left and right)<br>
+    Box-sizing: content-box
+</p>
+
+<p>
+    <b>Calculation:</b><br>
+    200 + 30 + 30 + 5 + 5 = 270px<br>
+    <b>Total Width: 270px</b>
+</p>
+
+<h3>Example 3: Border-box</h3>
+
+<p>
+    Width: 200px<br>
+    Padding: 20px (left and right)<br>
+    Border: 5px (left and right)<br>
+    Box-sizing: border-box
+</p>
+
+<p>
+    <b>Calculation:</b><br>
+    200px is the total width, including padding and border.<br>
+    Content Width = 200 - 40 - 10 = 150px<br>
+    <b>Total Width: 200px</b>
+</p>
+
+<h2>4. Height Examples</h2>
+
+<p>
+    In this section, I applied different height, padding, and border values to observe how the total height changes.
+</p>
+
+<h3>Example 4: Content-box</h3>
+
+<p>
+    Height: 100px<br>
+    Padding: 20px (top and bottom)<br>
+    Border: 5px (top and bottom)<br>
+    Box-sizing: content-box
+</p>
+
+<p>
+    <b>Calculation:</b><br>
+    100 + 20 + 20 + 5 + 5 = 150px<br>
+    <b>Total Height: 150px</b>
+</p>
+
+<h3>Example 5: Different Padding</h3>
+
+<p>
+    Height: 100px<br>
+    Top and Bottom Padding: 20px<br>
+    Border: 5px (top and bottom)<br>
+    Box-sizing: content-box
+</p>
+
+<p>
+    <b>Calculation:</b><br>
+    100 + 20 + 20 + 5 + 5 = 150px<br>
+    <b>Total Height: 150px</b>
+</p>
+
+<h3>Example 6: Border-box</h3>
+
+<p>
+    Height: 150px<br>
+    Padding: 20px (top and bottom)<br>
+    Border: 5px (top and bottom)<br>
+    Box-sizing: border-box
+</p>
+
+<p>
+    <b>Calculation:</b><br>
+    150px is the total height, including padding and border.<br>
+    Content Height = 150 - 40 - 10 = 100px<br>
+    <b>Total Height: 150px</b>
+</p>
+
+<h2>5. Difference Between Content-box and Border-box</h2>
+
+<p>
+    <b>Content-box:</b><br>
+    In content-box, the width and height properties apply only to the content. Padding and border are added outside the declared dimensions.
+</p>
+
+<p>
+    <b>Border-box:</b><br>
+    In border-box, the declared width and height include content, padding, and border. The total size remains fixed.
+</p>
+
+<h2>6. Conclusion</h2>
+
+<p>
+    In this assignment, I learned how the CSS Box Model works. I practiced changing content width, height, padding, and border values. I also understood how content-box and border-box affect the total size of an element.
+</p>
+
+<p>
+    This practical demonstration helped me understand the relationship between the four components of the CSS Box Model.
+</p>
+</body>
+</html>
