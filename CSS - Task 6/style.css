@@ -1,0 +1,27 @@
+/* Combinators */
+
+
+.descendant p {
+    background-color: burlywood;
+}
+
+.child > p {
+    background-color: aqua;
+}
+
+.adjacent h3 + p {
+    background-color: chartreuse;
+}
+
+.general h3 ~ p {
+    background-color: cornflowerblue;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}

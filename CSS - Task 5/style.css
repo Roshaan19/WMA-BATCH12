@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #111;
+    font-family: Georgia;
+}
+
+.main {
+    width: 95%;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.header {
+    height: 270px;
+    background-image: url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1400");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+.navbar h2 {
+    display: inline-block;
+    margin: 0 20px 0 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.content {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.content h1 {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.content p {
+    font-size: 12px;
+}
+
+.search {
+    width: 55%;
+    height: 35px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.search input {
+    width: 65%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+.search select {
+    width: 18%;
+    height: 100%;
+    border: none;
+}
+
+.search button {
+    width: 15%;
+    height: 100%;
+    background-color: #ffbd00;
+    border: none;
+    color: white;
+}
+
+.categories {
+    padding: 15px 9%;
+}
+
+.categories h3 {
+    font-size: 13px;
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.items {
+    font-size: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 23%;
+    height: 120px;
+    margin: 5px;
+    border: 3px solid #eee;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+.card p {
+    position: absolute;
+    bottom: 3px;
+    left: 7px;
+    color: white;
+    font-size: 11px;
+    text-shadow: 1px 1px 3px black;
+}

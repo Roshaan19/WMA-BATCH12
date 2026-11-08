@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <h1>CSS Task-6</h1>
+    <h2>Combinators</h2>
+
+    <p>Combinators are used to select elements by their relationship with other elements.</p>
+
+    <h2>1. Descendant Combinator (Space)</h2>
+    <p>The descendant combinator selects all elements inside a specified element.</p>
+
+    <div class="descendant">
+        <p>Paragraph 1 inside div.</p>
+        <section>
+            <p>Paragraph 2 inside section and div.</p>
+        </section>
+    </div>
+
+    <h2>2. Child Combinator (&gt;)</h2>
+    <p>The child combinator selects only the direct children of a specified element.</p>
+
+    <div class="child">
+        <p>Direct child paragraph.</p>
+        <section>
+            <p>Nested paragraph. It is not a direct child of div.</p>
+        </section>
+    </div>
+
+    <h2>3. Adjacent Sibling Combinator (+)</h2>
+    <p>The adjacent sibling combinator selects the element that comes immediately after another element.</p>
+
+    <div class="adjacent">
+        <h3>Heading</h3>
+        <p>Paragraph directly after the heading.</p>
+        <p>Second paragraph.</p>
+    </div>
+
+    <h2>4. General Sibling Combinator (~)</h2>
+    <p>The general sibling combinator selects all matching siblings that come after a specified element.</p>
+
+    <div class="general">
+        <h3>Heading</h3>
+        <p>Paragraph 1 after heading.</p>
+        <span>Span element</span>
+        <p>Paragraph 2 after heading.</p>
+        <p>Paragraph 3 after heading.</p>
+    </div>
+
+    <h2>Summary</h2>
+    <p>Space = all descendants</p>
+    <p>&gt; = direct children</p>
+    <p>+ = immediately next sibling</p>
+    <p>~ = all following matching siblings</p>
+
+    <a href="./document.html" target="_blank">Document File</a>
+
+</body>
+</html>
